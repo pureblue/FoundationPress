@@ -24,12 +24,12 @@
                             <p>Grants Pass, OR 97526</p>
                         </div>
 				        <div class="small no-top section">
-				            <p>Phone: <a href="tel:5414717111">541-471-7111</a></p>
-                            <p>Fax: <a href="tel:5414717116">541-471-7116</a></p>
+				            <p>Phone: <strong><a href="tel:5414717111">541-471-7111</a></strong></p>
+                            <p>Fax: <strong><a href="tel:5414717116">541-471-7116</a></strong></p>
 				        </div>
                         <div class="small no-top section">
-				            <p><strong>Sales: <a href="mailto:sales@metone.com">sales@metone.com</a></strong></p>
-                            <p><strong>Service: <a href="mailto:service@metone.com">service@metone.com</a></strong></p>
+				            <p>Sales: <strong><a href="mailto:sales@metone.com">sales@metone.com</a></strong></p>
+                            <p>Service: <strong><a href="mailto:service@metone.com">service@metone.com</a></strong></p>
 				        </div>
 				    </div>
 				    <div class="column medium-3">

@@ -27,8 +27,8 @@
 @include foundation-global-styles;
 
 // Individual foundation components
-@include foundation-grid;
-// @include foundation-flex-grid;
+//@include foundation-grid;
+@include foundation-flex-grid;
 @include foundation-typography;
 @include foundation-forms;
 @include foundation-button;
@@ -80,6 +80,7 @@
 @import "modules/content";
 @import "modules/footer";
 @import "modules/editor-style";
+@import "modules/typography";
 
 // Components
 @import "components/buttons";

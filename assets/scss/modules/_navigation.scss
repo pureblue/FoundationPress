@@ -7,6 +7,17 @@
 .desktop-menu,
 .site-navigation .top-bar-left {
   @include show-for(medium);
+
+  ul {
+
+      li:last-child {
+
+          a {
+
+                border-right:none;
+          }
+      }
+  }
 }
 
 
@@ -17,10 +28,14 @@
 }
 
 .site-desktop-title a {
-  font-weight: bold;
+  color:$white;
+  border-right:1px solid $white;
+
+  &:hover {
+
+      background:scale-color($dark-blue-gray, $lightness: -20%);
+  }
 }
-
-
 
 // Mobile menu
 .mobile-menu {
@@ -48,28 +63,76 @@
 }
 
 
-
 // Tablet and desktop menu
 .desktop-menu {
 
   // submenu arrow
   li.is-dropdown-submenu-parent {
     > a::after {
-      border-color: $accordionmenu-arrow-color transparent transparent;
+      border-color: $white transparent transparent;
     }
     &.active > a::after {
-      border-color: $menu-item-color-active transparent transparent;
+      border-color: $white transparent transparent;
     }
   }
 }
 
+.dropdown.menu > li.is-dropdown-submenu-parent > a {
+
+    padding-right:2.5rem;
+
+    &::after {
+
+        border-color:$white transparent transparent;
+        right:10px;
+    }
+}
+
+.submenu {
+
+    background:$dark-blue-gray !important;
+    border:none;
+
+     li {
+
+         a {
+
+             border-right:none;
+         }
+     }
+}
+
 .site-navigation {
+
+    background:$red;
+    padding:0;
+
+    .row {
+
+        background:$dark-blue-gray;
+    }
   @include breakpoint(small only) {
     padding: 0; // prevents container visibility on small screens
   }
 }
 
+.header-bar {
 
+    background: #939598;
+    color: #fff;
+    padding: .25rem 0;
+    font-size: .85rem;
+
+    a {
+
+        color:$white;
+    }
+}
+
+.branding {
+
+    background:$white;
+}
 
 // WP post navigation
 .post-navigation {

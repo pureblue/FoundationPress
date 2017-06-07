@@ -1,16 +1,20 @@
 .main-wrap {
   @include grid-row();
-  margin-top: 1rem;
+  //margin-top: 1rem;
 
   @include breakpoint(medium) {
-    margin-top: 3rem;
+    //margin-top: 3rem;
   }
 }
 
 .main-content {
 
+    padding:0;
+    background:$white;
+
   // default 2 column
   @include grid-column(12);
+
   @include breakpoint(medium) {
     @include grid-column(8);
   }
@@ -19,6 +23,7 @@
   .full-width.main-wrap & {
     @include breakpoint(medium) {
       @include grid-column(12);
+      padding:0 !important;
     }
   }
 
@@ -27,8 +32,58 @@
     @include breakpoint(medium) {
       @include grid-column(8);
       @include grid-col-pos(4);
+      padding:0 !important;
     }
   }
+}
+
+.section {
+
+    padding-top:2rem;
+    padding-bottom:2rem;
+
+    &.small {
+
+        padding-top:1rem;
+        padding-bottom:1rem;
+    }
+
+    &.large {
+
+        padding-top:4rem;
+        padding-bottom:4rem;
+    }
+
+    &.no-top {
+
+        padding-top:0rem;
+    }
+
+    &.no-bottom {
+
+        padding-bottom:0rem;
+    }
+}
+
+.section-divider {
+
+    border-bottom: 1px dotted $dark-gray;
+    margin-bottom: 1rem;
+}
+
+.product-link {
+
+    color: $black;
+    -webkit-transition: all linear .2s;
+    transition: all linear .2s;
+    display: block;
+
+    &:hover {
+
+        padding-left: 1rem;
+        color: $black;
+        border-left: 2px solid $red;
+    }
 }
 
 .sidebar {
