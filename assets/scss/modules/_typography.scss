@@ -1,0 +1,69 @@
+#content, #product-specs {
+
+    .section-title {
+
+        color:$red;
+        font-size:1.25rem;
+    }
+
+    table {
+
+        td {
+
+            vertical-align: top;
+        }
+
+        .section-title {
+
+            font-size:1rem;
+            font-family:$header-font-family;
+        }
+    }
+
+    .section-sub-title {
+
+        color:$green;
+        font-size:1.25rem;
+    }
+
+    .row {
+
+        .column:first-child {
+
+            .section-title, .section-sub-title {
+
+                text-align:right;
+            }
+        }
+    }
+
+    .product-name {
+
+        font-size: $global-font-size;
+        font-weight:900;
+
+        a {
+
+            color:$black;
+        }
+    }
+}
+
+header {
+
+    h1 {
+
+        background:scale-color($light-gray, $lightness: 40%);
+        color:$red;
+        padding:0.5rem 1.5rem;
+        margin-top:3.75rem;
+    }
+
+    h2 {
+
+        background:$light-blue-gray;
+        padding:0.5rem 1.5rem;
+        color:$white;
+        margin-bottom:2rem;
+    }
+}
