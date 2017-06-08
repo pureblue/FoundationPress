@@ -47,6 +47,46 @@
   }
 }
 
+.landing-banner {
+
+    figure {
+
+        position:relative;
+        background:$white;
+        overflow:hidden;
+
+        img {
+
+            transition: all linear 0.2s;
+        }
+
+        figcaption {
+
+            position:absolute;
+            top:8rem;
+            left:0;
+            right:0;
+            background:rgba(000,000,000,0.5);
+            padding:0.5rem;
+            color:$white;
+        }
+
+        &:hover {
+
+            img {
+
+                opacity: 0.8;
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+#landingpage {
+
+    background:$white;
+}
+
 .section {
 
     padding-top:2rem;
