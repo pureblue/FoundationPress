@@ -29,4 +29,10 @@ jQuery(document).ready(function($) {
 
     $('#content > .row.divided').after('<div class="row collapse"><div class="column medium-3"></div><div class="column medium-9"><hr class="divider" /></div></div>');
 
+    $('.print-datasheet').on('click', $(this), function(e) {
+        //$('article').printThis();
+        window.print();
+        e.preventDefault();
+    });
+
 });

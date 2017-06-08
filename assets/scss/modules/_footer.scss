@@ -5,6 +5,13 @@
   border-top: 1px solid $medium-gray;
 }
 
+.print-footer {
+
+    border-top: 4px solid #b7202e;
+    padding: 3.5rem 0 2.5rem;
+    margin-top:2.5rem;
+}
+
 .footer {
   @include grid-row();
   max-width: 100rem;

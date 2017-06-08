@@ -1,3 +1,13 @@
+.print-header, .print-footer {
+
+    display:none;
+}
+
+.print-header {
+
+    padding:3rem 0;
+}
+
 .main-wrap {
   @include grid-row();
   //margin-top: 1rem;
