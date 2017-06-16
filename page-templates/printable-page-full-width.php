@@ -25,7 +25,13 @@ get_header(); ?>
 
         <div class="row print-button-block">
             <div class="small-12 medium-9 medium-offset-3">
-                <a class="button print-datasheet">Print Datasheet</a>
+                <a class="print-datasheet">Print <?php the_title(); ?> Specs</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column small-12 medium-9 medium-offset-3">
+                <p>Specifications are subject to change at any time</p>
             </div>
         </div>
 

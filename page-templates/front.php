@@ -7,41 +7,41 @@ get_header(); ?>
 <header>
 	<div class="row collapse landing-banner">
 	    <div class="column medium-3">
-            <a href="" class="image-section-link">
+            <a href="/meteorological-sensors-systems/" class="image-section-link">
                 <figure>
                     <img src="/wp-content/uploads/2017/06/Weather-16x9.jpg">
                     <figcaption class="section-hightlight">
-                        Section Title
+                        Meterological Sensors &amp; Systems
                     </figcaption>
                 </figure>
             </a>
 	    </div>
 	    <div class="column medium-3">
-            <a href="" class="image-section-link">
+            <a href="/indoor-controlled-environments/" class="image-section-link">
                 <figure>
                     <img src="/wp-content/uploads/2017/06/Inside-Air-16x9.jpg">
                     <figcaption class="section-hightlight">
-                        Section Title
+                        Indoor Controlled Environments
                     </figcaption>
                 </figure>
             </a>
 	    </div>
 	    <div class="column medium-3">
-            <a href="" class="image-section-link">
+            <a href="/communication-data-handling/" class="image-section-link">
                 <figure>
                     <img src="/wp-content/uploads/2017/06/CCS_Industrial-Finalcjo-16x9.jpg">
                     <figcaption class="section-hightlight">
-                        Section Title
+                        Communication &amp Data Handling
                     </figcaption>
                 </figure>
             </a>
 	    </div>
 	    <div class="column medium-3">
-            <a href="" class="image-section-link">
+            <a href="/air-quality-particulate-monitors/" class="image-section-link">
                 <figure>
                     <img src="/wp-content/uploads/2017/06/air-pollution-16x9.jpg">
                     <figcaption class="section-hightlight">
-                        Section Title
+                        Air Quality Particulate Monitors
                     </figcaption>
                 </figure>
             </a>
