@@ -31,7 +31,7 @@ get_header(); ?>
 
         <div class="row">
             <div class="column small-12 medium-9 medium-offset-3">
-                <p>Specifications are subject to change at any time</p>
+                <p class="red-text">Specifications are subject to change at any time</p>
             </div>
         </div>
 
