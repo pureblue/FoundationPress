@@ -8,7 +8,7 @@ get_header(); ?>
 	<div class="row collapse landing-banner">
 	    <div class="column medium-3">
             <a href="/meteorological-sensors-systems/" class="image-section-link">
-                <figure>
+                <figure class="image-locator">
                     <img src="/wp-content/uploads/2017/06/Weather-16x9.jpg">
                     <figcaption class="section-hightlight">
                         Meterological Sensors &amp; Systems
