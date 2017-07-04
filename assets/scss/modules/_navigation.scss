@@ -20,7 +20,22 @@
   }
 }
 
+.back-icon {
 
+    font-size:65%;
+
+    a {
+
+        color:$dark-gray;
+        transition: all linear 0.2s;
+
+        &:hover {
+
+            color:$red;
+            margin-left:-0.25rem;
+        }
+    }
+}
 
 // Site title
 .site-mobile-title a {
@@ -116,6 +131,11 @@
   }
 }
 
+#menu-master-nav {
+
+    padding-left:2.75rem;
+}
+
 .header-bar {
 
     background: #939598;
@@ -132,6 +152,12 @@
 .branding {
 
     background:$white;
+
+     img {
+
+        width:250px;
+        margin-left:4rem;
+     }
 }
 
 // WP post navigation

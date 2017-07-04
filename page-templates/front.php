@@ -6,12 +6,12 @@ get_header(); ?>
 
 <header>
 	<div class="row collapse landing-banner">
-	    <div class="column medium-3">
-            <a href="/meteorological-sensors-systems/" class="image-section-link">
-                <figure class="image-locator">
-                    <img src="/wp-content/uploads/2017/06/Weather-16x9.jpg">
+        <div class="column medium-3">
+            <a href="/air-quality-particulate-monitors/" class="image-section-link">
+                <figure>
+                    <img src="/wp-content/uploads/2017/06/air-pollution-16x9.jpg">
                     <figcaption class="section-hightlight">
-                        Meterological Sensors &amp; Systems
+                        Air Quality<br />Monitoring
                     </figcaption>
                 </figure>
             </a>
@@ -26,22 +26,22 @@ get_header(); ?>
                 </figure>
             </a>
 	    </div>
+        <div class="column medium-3">
+            <a href="/meteorological-sensors-systems/" class="image-section-link">
+                <figure class="image-locator">
+                    <img src="/wp-content/uploads/2017/06/Weather-16x9.jpg">
+                    <figcaption class="section-hightlight">
+                        Meteorological Sensors &amp; Systems
+                    </figcaption>
+                </figure>
+            </a>
+	    </div>
 	    <div class="column medium-3">
             <a href="/communication-data-handling/" class="image-section-link">
                 <figure>
                     <img src="/wp-content/uploads/2017/06/CCS_Industrial-Finalcjo-16x9.jpg">
                     <figcaption class="section-hightlight">
                         Communication &amp Data Handling
-                    </figcaption>
-                </figure>
-            </a>
-	    </div>
-	    <div class="column medium-3">
-            <a href="/air-quality-particulate-monitors/" class="image-section-link">
-                <figure>
-                    <img src="/wp-content/uploads/2017/06/air-pollution-16x9.jpg">
-                    <figcaption class="section-hightlight">
-                        Air Quality Particulate Monitors
                     </figcaption>
                 </figure>
             </a>
@@ -53,7 +53,7 @@ get_header(); ?>
 
 <?php while ( have_posts() ) : the_post(); ?>
 	<article class="row column" id="landingpage">
-        <div class="column medium-6 medium-offset-3 section large">
+        <div class="column medium-6 medium-offset-3 section large lead">
             <?php the_content(); ?>
         </div>
 	</article>

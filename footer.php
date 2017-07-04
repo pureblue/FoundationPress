@@ -34,16 +34,7 @@
 				    </div>
 				    <div class="column medium-3">
 				        <h5>Menu</h5>
-                        <ul class="menu vertical">
-                            <li><a href="">Home</a></li>
-                            <li><a href="">About</a></li>
-                            <li><a href="">Air Quality Monitoring</a></li>
-                            <li><a href="">Indoor &amp; Controlled Environments</a></li>
-                            <li><a href="">Meterology Sensors &amp; Systems</a></li>
-                            <li><a href="">Communication &amp; Data Handeling</a></li>
-                            <li><a href="">Met One News</a></li>
-                            <li><a href="">Contact</a></li>
-                        </ul>
+                        <?php foundationpress_sidebar_widgets(); ?>
 				    </div>
 				    <div class="column medium-3">
 				        <div class="row">
